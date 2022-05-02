@@ -8,6 +8,8 @@
 
     list-style: none;
     text-decoration: none;
+    background: #070724;
+    background-image: url('./assets/background-stars.svg') ;
 }
 
 img{
