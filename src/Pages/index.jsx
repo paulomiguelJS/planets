@@ -1,16 +1,14 @@
-import React from 'react'
-import Header from '../components/Header'
+import React from "react";
+import Header from "../components/Header";
+import Planet from "../components/Planet";
 
 const Home = () => {
   return (
     <>
-    <div className=' container mx-auto p-2'>
-     <Header />
-    </div>
-    <div className='border-b border-[#ccb3b3]'></div>
+      <Header />
+      <Planet />
     </>
-    
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
