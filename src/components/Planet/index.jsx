@@ -6,7 +6,7 @@ import pic from "../../assets/planet-neptune.svg";
 const Planet = () => {
   return (
     <main className='p-2 mt-12 container mx-auto text-white flex items-center justify-around'>
-            <img className="basis-1/3 hover:scale-110 hover:ease-in-out duration-300 "  src={pic} />
+            <img className="basis-1/3 transform transition duration-1000 hover:scale-110  "  src={pic} />
         <aside className='basis-1/4'>
             <h1 className='font-title text-7xl mb-10'>VENUS</h1>
             <p className='font-body text-base mb-3'>Much of the Venusian surface appears to have been shaped by volcanic activity. 
