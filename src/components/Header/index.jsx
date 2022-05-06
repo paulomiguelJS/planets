@@ -9,18 +9,18 @@ const Header = () => {
         </div>
         <nav >
        <ul className='flex flex-row text-[#c1c1c8] font-body font-bold tracking-widest '>
-           <li className='mx-3 hover:text-white'><a href="">MERCURY</a></li>
-           <li className='mx-3 hover:text-white'><a href="">VENUS</a></li>
-           <li className='mx-3 hover:text-white'><a href="">EARTH</a></li>
-           <li className='mx-3 hover:text-white'><a href="">MARS</a></li>
-           <li className='mx-3 hover:text-white'><a href="">JUPITER</a></li>
-           <li className='mx-3 hover:text-white'><a href="">SATURN</a></li>
-           <li className='mx-3 hover:text-white'><a href="">URANUS</a></li>
-           <li className='mx-3 hover:text-white'><a href="">NEPTUNE</a></li>
+           <li><a  className='mx-3 p-5 hover:text-white' href="">MERCURY</a></li>
+           <li><a  className='mx-3 p-5 hover:text-white' href="">VENUS</a></li>
+           <li><a  className='mx-3 p-5 hover:text-white' href="">EARTH</a></li>
+           <li><a  className='mx-3 p-5 hover:text-white' href="">MARS</a></li>
+           <li><a  className='mx-3 p-5 hover:text-white' href="">JUPITER</a></li>
+           <li><a  className='mx-3 p-5 hover:text-white' href="">SATURN</a></li>
+           <li><a  className='mx-3 p-5 hover:text-white' href="">URANUS</a></li>
+           <li><a  className='mx-3 p-5 hover:text-white' href="">NEPTUNE</a></li>
        </ul>
        </nav>
       </header>
-      <div className="border-b border-[#ccb3b3]"></div>;
+      <div className=" border-b border-[#393950]"></div>;
       </>
   )
 }
