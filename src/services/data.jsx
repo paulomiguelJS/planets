@@ -8,7 +8,7 @@ const planets = [
     surface:
       "Mercury's surface is similar in appearance to that of the Moon, showing extensive mare-like plains and heavy cratering, indicating that it has been geologically inactive for billions of years. It is more heterogeneous than either Mars's or the Moon’s.",
     color: "#419EBB",
-    planetover: "CAMINHO",
+    planetover: "../assets/planet-mercury",
     planetinter: "CAMINHO",
     planetsurf: "CAMINHO",
     rotation: "58.6 DAYS",
@@ -17,7 +17,7 @@ const planets = [
     average: "430°C"
   },
   {
-    name: "Mercury",
+    name: "Venus",
     overview:
       "Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasions, visible to the naked eye in broad daylight.",
     internal:
@@ -25,7 +25,7 @@ const planets = [
     surface:
       "Much of the Venusian surface appears to have been shaped by volcanic activity. Venus has several times as many volcanoes as Earth, and it has 167 large volcanoes that are over 100 km (60 mi) across. The only volcanic complex of this size on Earth is the Big Island of Hawaii.",
     color: "#EDA249",
-    planetover: "CAMINHO",
+    planetover: "../assets/planet/venus-planet",
     planetinter: "CAMINHO",
     planetsurf: "CAMINHO",
     rotation: "243 DAYS",
