@@ -17,9 +17,9 @@ const Planet = () => {
                 <a href="#">Wikipedia </a>
             </div>
             <div className='flex flex-col'>
-            <Button></Button>
-            <Button></Button>
-            <Button></Button>
+            <Button number="01" title="OVERVIEW"/>
+            <Button number="02" title="INTERNAL STRUCTURE"/>
+            <Button number="03" title="SURFACE GEOLOGY"/>
             </div>
             
 
