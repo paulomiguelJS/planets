@@ -1,6 +1,7 @@
-const planets = [
+export const planets = [
   {
     name: "Mercury",
+    id: 1,
     overview:
       "Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth.",
     internal:
@@ -14,10 +15,11 @@ const planets = [
     rotation: "58.6 DAYS",
     revolution: "87.97 DAYS",
     radius: "2,439.7 KM",
-    average: "430°C"
+    average: "430°C",
   },
   {
     name: "Venus",
+    id: 2,
     overview:
       "Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasions, visible to the naked eye in broad daylight.",
     internal:
@@ -31,6 +33,6 @@ const planets = [
     rotation: "243 DAYS",
     revolution: "224.7 DAYS",
     radius: "6,051.8 KM",
-    average: "471°c"
+    average: "471°c",
   },
 ];
