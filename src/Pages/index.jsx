@@ -6,13 +6,13 @@ import { planets as planetsList } from "../services/data";
 
 const Home = () => {
   const [planetId, setPlanetId] = useState(1);
-  const [planetData, setPlanetData] = useState([]);  
-
-
+  const [planetData, setPlanetData] = useState([]);
 
   useEffect(() => {
-    planetsList.map((infoPlanets) => infoPlanets.id === planetId && setPlanetData(infoPlanets));
-  }, [planetId])
+    planetsList.map(
+      (infoPlanets) => infoPlanets.id === planetId && setPlanetData(infoPlanets)
+    );
+  }, [planetId]);
 
   return (
     <>
