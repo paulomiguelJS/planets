@@ -1,6 +1,17 @@
 import React from 'react'
 
-const Header = () => {
+const Header = ({setPlanetId}) => {
+  const planetsInfo = [
+    {id: 1, name: 'MERCURY'},
+    {id: 2, name: 'VENUS'},
+    {id: 3, name: 'EARTH'},
+    {id: 4, name: 'MARS'},
+    {id: 5, name: 'JUPITER'},
+    {id: 6, name: 'SATURN'},
+    {id: 7, name: 'URANUS'},
+    {id: 8, name: 'NEPTUNE'},
+  ] 
+
   return (
     <>
       <header className='flex justify-between items-center p-4 container mx-auto'>
@@ -9,14 +20,9 @@ const Header = () => {
         </div>
         <nav >
        <ul className='flex flex-row text-[#c1c1c8] font-body font-bold tracking-widest '>
-           <li><a  className='mx-3 p-5 hover:text-white' href="">MERCURY</a></li>
-           <li><a  className='mx-3 p-5 hover:text-white' href="">VENUS</a></li>
-           <li><a  className='mx-3 p-5 hover:text-white' href="">EARTH</a></li>
-           <li><a  className='mx-3 p-5 hover:text-white' href="">MARS</a></li>
-           <li><a  className='mx-3 p-5 hover:text-white' href="">JUPITER</a></li>
-           <li><a  className='mx-3 p-5 hover:text-white' href="">SATURN</a></li>
-           <li><a  className='mx-3 p-5 hover:text-white' href="">URANUS</a></li>
-           <li><a  className='mx-3 p-5 hover:text-white' href="">NEPTUNE</a></li>
+          {planetsInfo.map((planet, index) => 
+            <li className='mx-3 p-5 hover:text-white' key={index} onClick={() => setPlanetId(planet.id)} style={{cursor:'pointer'}}>{planet.name}</li>
+          )}
        </ul>
        </nav>
       </header>
