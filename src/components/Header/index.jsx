@@ -1,4 +1,5 @@
 import React from 'react'
+import {planets} from '../../services/data'
 
 const Header = ({setPlanetId}) => {
   const planetsInfo = [
