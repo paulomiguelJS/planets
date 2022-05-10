@@ -20,9 +20,9 @@ const Planet = ({ planetData }) => {
           <a href="#"> Wikipedia </a>
         </div>
         <div className="flex flex-col">
-          <Button onClick={() => setPlanetText(planetData.overview)} number="01" title="OVERVIEW"/>
+          <Button  onClick={() => setPlanetText(planetData.overview)} number="01" title="OVERVIEW"/>
           <Button onClick={() => setPlanetText(planetData.internal)} number="02" title="INTERNAL STRUCTURE" />
-          <Button onClick={() => setPlanetText(planetData.surface)} number="03" title="SURFACE GEOLOGY" />
+          <Button style={{focus:"red"}} onClick={() => setPlanetText(planetData.surface)} number="03" title="SURFACE GEOLOGY" />
         </div>
       </aside>
     </main>
