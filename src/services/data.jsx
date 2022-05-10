@@ -32,7 +32,7 @@ import neptuneSurface from "../assets/neptune-surface.svg"
 
 export const planets = [
   {
-    name: "Mercury",
+    name: "MERCURY",
     id: 1,
     overview:
       "Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth.",
@@ -50,7 +50,7 @@ export const planets = [
     average: "430°C",
   },
   {
-    name: "Venus",
+    name: "VENUS",
     id: 2,
     overview:
       "Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasions, visible to the naked eye in broad daylight.",
