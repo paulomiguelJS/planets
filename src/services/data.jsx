@@ -1,34 +1,34 @@
 import mercury from "../assets/planet-mercury.svg";
-import mercuryInternal from "../assets/planet-mercury-internal.svg"
-import mercurySurface from "../assets/mercury-surface.svg"
+import mercuryInternal from "../assets/planet-mercury-internal.svg";
+import mercurySurface from "../assets/mercury-surface.svg";
 
 import venus from "../assets/planet-venus.svg";
-import venusInternal from "../assets/planet-venus-internal.svg"
-import venusSurface from "../assets/venus-surface.svg"
+import venusInternal from "../assets/planet-venus-internal.svg";
+import venusSurface from "../assets/venus-surface.svg";
 
 import earth from "../assets/planet-earth.svg";
-import earthInternal from "../assets/planet-earth-internal.svg"
-import earthSurface from "../assets/earth-surface.svg"
+import earthInternal from "../assets/planet-earth-internal.svg";
+import earthSurface from "../assets/earth-surface.svg";
 
 import mars from "../assets/planet-mars.svg";
-import marsInternal from "../assets/planet-mars-internal.svg"
-import marsSurface from "../assets/mars-surface.svg"
+import marsInternal from "../assets/planet-mars-internal.svg";
+import marsSurface from "../assets/mars-surface.svg";
 
 import jupiter from "../assets/planet-jupiter.svg";
-import jupiterInternal from "../assets/planet-jupiter-internal.svg"
-import jupiterSurface from "../assets/jupiter-surface.svg"
+import jupiterInternal from "../assets/planet-jupiter-internal.svg";
+import jupiterSurface from "../assets/jupiter-surface.svg";
 
 import saturn from "../assets/planet-saturn.svg";
-import saturnInternal from "../assets/planet-saturn-internal.svg"
-import saturnSurface from "../assets/saturn-surface.svg"
+import saturnInternal from "../assets/planet-saturn-internal.svg";
+import saturnSurface from "../assets/saturn-surface.svg";
 
 import uranus from "../assets/planet-uranus.svg";
-import uranusInternal from "../assets/planet-uranus-internal.svg"
-import uranusSurface from "../assets/uranus-surface.svg"
+import uranusInternal from "../assets/planet-uranus-internal.svg";
+import uranusSurface from "../assets/uranus-surface.svg";
 
 import neptune from "../assets/planet-neptune.svg";
-import neptuneInternal from "../assets/planet-neptune-internal.svg"
-import neptuneSurface from "../assets/neptune-surface.svg"
+import neptuneInternal from "../assets/planet-neptune-internal.svg";
+import neptuneSurface from "../assets/neptune-surface.svg";
 
 export const planets = [
   {
@@ -40,6 +40,7 @@ export const planets = [
       "Mercury appears to have a solid silicate crust and mantle overlying a solid, iron sulfide outer core layer, a deeper liquid core layer, and a solid inner core. The planet's density is the second highest in the Solar System at 5.427 g/cm3 , only slightly less than Earth's density.",
     surface:
       "Mercury's surface is similar in appearance to that of the Moon, showing extensive mare-like plains and heavy cratering, indicating that it has been geologically inactive for billions of years. It is more heterogeneous than either Mars's or the Moon’s.",
+    source: "https://en.wikipedia.org/wiki/Mercury_(planet)",
     color: "#419EBB",
     planetover: mercury,
     planetinter: mercuryInternal,
