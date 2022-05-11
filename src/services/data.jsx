@@ -59,6 +59,7 @@ export const planets = [
       "The similarity in size and density between Venus and Earth suggests they share a similar internal structure: a core, mantle, and crust. Like that of Earth, Venusian core is most likely at least partially liquid because the two planets have been cooling at about the same rate.",
     surface:
       "Much of the Venusian surface appears to have been shaped by volcanic activity. Venus has several times as many volcanoes as Earth, and it has 167 large volcanoes that are over 100 km (60 mi) across. The only volcanic complex of this size on Earth is the Big Island of Hawaii.",
+    source: "https://en.wikipedia.org/wiki/Venus",
     color: "#EDA249",
     planetover: venus,
     planetinter: venusInternal,
@@ -77,6 +78,7 @@ export const planets = [
       "Earth's interior, like that of the other terrestrial planets, is divided into layers by their chemical or physical (rheological) properties. The outer layer is a chemically distinct silicate solid crust, which is underlain by a highly viscous solid mantle.",
     surface:
       "The total surface area of Earth is about 510 million km2. The continental crust consists of lower density material such as the igneous rocks granite and andesite. Less common is basalt, a denser volcanic rock that is the primary constituent of the ocean floors.",
+    source: "https://en.wikipedia.org/wiki/Earth",
     color: "#6f2ed6",
     planetover: earth,
     planetinter: earthInternal,
@@ -95,6 +97,8 @@ export const planets = [
       "Like Earth, Mars has differentiated into a dense metallic core overlaid by less dense materials. Scientists initially determined that the core is at least partially liquid. Current models of its interior imply a core consisting primarily of iron and nickel with about 16–17% sulfur.",
     surface:
       "Mars is a terrestrial planet whose surface consists of minerals containing silicon and oxygen, metals, and other elements that typically make up rock. The surface is primarily composed of tholeiitic basalt, although parts are more silica-rich than typical basalt.",
+    source: "https://en.wikipedia.org/wiki/Mars",
+
     color: "#D14C32",
     planetover: mars,
     planetinter: marsInternal,
@@ -113,6 +117,7 @@ export const planets = [
       "When the Juno arrived in 2016, it found that Jupiter has a very diffuse core that mixes into its mantle. A possible cause is an impact from a planet of about ten Earth masses a few million years after Jupiter's formation, which would have disrupted an originally solid Jovian core.",
     surface:
       "The best known feature of Jupiter is the Great Red Spot, a persistent anticyclonic storm located 22° south of the equator. It is known to have existed since at least 1831, and possibly since 1665.",
+    source: "https://en.wikipedia.org/wiki/Jupiter",
     color: "#D83A34",
     planetover: jupiter,
     planetinter: jupiterInternal,
@@ -131,6 +136,7 @@ export const planets = [
       "Despite consisting mostly of hydrogen and helium, most of Saturn's mass is not in the gas phase, because hydrogen becomes a non-ideal liquid when the density is above 0.01 g/cm3, which is reached at a radius containing 99.9% of Saturn's mass.",
     surface:
       "The outer atmosphere of Saturn contains 96.3% molecular hydrogen and 3.25% helium by volume. The planet's most famous feature is its prominent ring system, which is composed mostly of ice particles with a smaller amount of rocky debris and dust. ",
+    source: "https://en.wikipedia.org/wiki/Saturn",
     color: "#CD5120",
     planetover: saturn,
     planetinter: saturnInternal,
@@ -149,6 +155,7 @@ export const planets = [
       "The standard model of Uranus's structure is that it consists of three layers: a rocky (silicate/iron–nickel) core in the centre, an icy mantle in the middle and an outer gaseous hydrogen/helium envelope. The core is relatively small, with a mass of only 0.55 Earth masses.",
     surface:
       "The composition of Uranus's atmosphere is different from its bulk, consisting mainly of molecular hydrogen and helium. The helium molar fraction, i.e. the number of helium atoms per molecule of gas, is 0.15±0.03 in the upper troposphere.",
+    source: "https://en.wikipedia.org/wiki/Uranus",
     color: "#1ec2a4",
     planetover: uranus,
     planetinter: uranusInternal,
@@ -167,6 +174,7 @@ export const planets = [
       "Neptune's internal structure resembles that of Uranus. Its atmosphere forms about 5% to 10% of its mass and extends perhaps 10% to 20% of the way towards the core. Increasing concentrations of methane, ammonia and water are found in the lower regions.",
     surface:
       "Neptune's atmosphere is 80% hydrogen and 19% helium. A trace amount of methane is also present. Prominent absorption bands of methane exist at wavelengths above 600 nm, in the red and infrared portion of the spectrum.",
+    source: "https://en.wikipedia.org/wiki/Neptune",
     color: "#2d68f0",
     planetover: neptune,
     planetinter: neptuneInternal,

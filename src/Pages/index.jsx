@@ -18,7 +18,7 @@ const Home = () => {
     <>
       <Header setPlanetId={setPlanetId} />
       <Planet planetData={planetData} />
-      <Cards  planetData={planetData} />
+      <Cards planetData={planetData} />
     </>
   );
 };

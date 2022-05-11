@@ -2,7 +2,6 @@ import React from "react";
 import { planets as PlanetInfo } from "../../services/data";
 
 const Header = ({ setPlanetId }) => {
- 
   return (
     <>
       <header className="flex justify-between items-center p-4 container mx-auto">
