@@ -15,7 +15,7 @@ import marsInternal from "../assets/planet-mars-internal.svg";
 import marsSurface from "../assets/mars-surface.svg";
 
 import jupiter from "../assets/planet-jupiter.svg";
-import jupiterInternal from "../assets/planet-jupiter-internal.svg";
+import jupiterInternal from "../assets/jupiter-internal.svg";
 import jupiterSurface from "../assets/jupiter-surface.svg";
 
 import saturn from "../assets/planet-saturn.svg";
