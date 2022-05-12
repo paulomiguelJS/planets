@@ -1,25 +1,23 @@
 import React from "react";
 
 const Cards = ({ planetData }) => {
-
-  
   return (
-    <div className="container flex justify-around mx-auto mt-10 ">
-      <div className="border border-[#20203a] flex flex-col justify-center text-white w-56 h-32 pl-5 py-3 animate-[fade-in-down_2s_ease-out]	">
-        <h4 className="text-[#737383] font-body text-base mb-2 font-semibold">ROTATION TIME</h4>
-        <span className="font-title text-4xl">{planetData?.rotation}</span>
+    <div className="container flex just justify-center items-align lg:justify-around mx-auto mt-10 flex-col p-3 lg:flex-row ">
+      <div className="border border-[#20203a] flex flex-col justify-center text-white w-full h-11/12 lg:w-56 lg:h-32 lg:pl-5 py-3 animate-[fade-in-down_2s_ease-out] mb-2">
+        <h4 className="text-[#737383] font-body text-center text-sm lg:text-base mb-2 font-semibold">ROTATION TIME</h4>
+        <span className="font-title text-2xl lg:text-4xl text-center">{planetData?.rotation}</span>
       </div>
-      <div className="border border-[#20203a] flex flex-col justify-center text-white w-56 h-32 pl-5 py-3 animate-[fade-in-down_2.5s_ease-out]">
-        <h4 className="text-[#737383] font-body text-base mb-2 font-semibold">REVOLUTION TIME</h4>
-        <span className="font-title text-4xl">{planetData?.revolution}</span>
+      <div className="border border-[#20203a] flex flex-col justify-center text-white w-full h-11/12 lg:w-56 lg:h-32 lg:pl-5 py-3 animate-[fade-in-down_2s_ease-out] mb-2">
+        <h4 className="text-[#737383] font-body text-center text-sm lg:text-base mb-2 font-semibold">REVOLUTION TIME</h4>
+        <span className="font-title text-2xl lg:text-4xl text-center">{planetData?.revolution}</span>
       </div>
-      <div className="border border-[#20203a] flex flex-col justify-center text-white w-56 h-32 pl-5 py-3 animate-[fade-in-down_2.8s_ease-out]">
-        <h4 className="text-[#737383] font-body text-base mb-2 font-semibold">RADIUS</h4>
-        <span className="font-title text-4xl">{planetData?.radius}</span>
+      <div className="border border-[#20203a] flex flex-col justify-center text-white w-full h-11/12 lg:w-56 lg:h-32 lg:pl-5 py-3 animate-[fade-in-down_2s_ease-out] mb-2">
+        <h4 className="text-[#737383] font-body text-center text-sm lg:text-base mb-2 font-semibold">RADIUS</h4>
+        <span className="font-title text-2xl lg:text-4xl text-center">{planetData?.radius}</span>
       </div>
-      <div className="border border-[#20203a] flex flex-col justify-center text-white w-56 h-32 pl-5 py-3 animate-[fade-in-down_3s_ease-out]">
-        <h4 className="text-[#737383] font-body text-base mb-2 font-semibold">AVERAGE TEMP.</h4>
-        <span className="font-title text-4xl">{planetData?.average}</span>
+      <div className="border border-[#20203a] flex flex-col justify-center text-white w-full h-11/12 lg:w-56 lg:h-32 lg:pl-5 py-3 animate-[fade-in-down_2s_ease-out] mb-2">
+        <h4 className="text-[#737383] font-body text-center text-sm lg:text-base mb-2 font-semibold">AVERAGE TEMP.</h4>
+        <span className="font-title text-2xl lg:text-4xl text-center">{planetData?.average}</span>
       </div>
     </div>
   );

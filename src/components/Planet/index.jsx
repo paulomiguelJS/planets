@@ -13,14 +13,14 @@ const Planet = ({ planetData }) => {
 
 
   return (
-    <main className=" flex flex-col items-center justify-around  lg:flex-row p-2 mt-12 container mx-auto text-white">
+    <main className="flex flex-col items-center justify-around lg:flex-row p-2 mt-12 container mx-auto text-white">
       <img
-        className="basis-1/3 p-8 transform transition duration-1000 hover:scale-110 animate-[fade-in-down_2s_ease-out]"
+        className=" flex basis-1/3 p-8 transform transition duration-1000 hover:scale-110 animate-[fade-in-down_2s_ease-out]  "
         src={planetImage}
         alt={"Imagem"}
       />
       <aside className="basis-1/4">
-        <h1 className="font-title lg:text-7xl mb-10 animate-[fade-in-down_0.5s_ease-out] mt-12 sm:text-6xl">
+        <h1 className="font-title lg:text-7xl mb-10 animate-[fade-in-down_0.5s_ease-out] mt-12 text-5xl">
           {planetData?.name}
         </h1>
         <p className="font-body text-base mb-3 animate-[fade-in-down_0.8s_ease-out]">
@@ -30,7 +30,7 @@ const Planet = ({ planetData }) => {
           <span>Source:</span>
           <a href={planetData.source}> Wikipedia </a>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col ">
           <Button
             bgColor={planetData.color}
             onClick={() =>{ 
