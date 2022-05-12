@@ -1,6 +1,8 @@
 import React from "react";
 
 const Cards = ({ planetData }) => {
+
+  
   return (
     <div className="container flex justify-around mx-auto mt-10 ">
       <div className="border border-[#20203a] flex flex-col justify-center text-white w-56 h-32 pl-5 py-3 animate-[fade-in-down_2s_ease-out]	">

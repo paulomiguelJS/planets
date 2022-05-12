@@ -13,7 +13,7 @@ const Planet = ({ planetData }) => {
 
 
   return (
-    <main className="p-2 mt-12 container mx-auto text-white flex items-center justify-around">
+    <main className="p-2 mt-12 container mx-auto text-white flex items-center justify-around ">
       <img
         className="basis-1/3 transform transition duration-1000 hover:scale-110 animate-[fade-in-down_2s_ease-out]"
         src={planetImage}
