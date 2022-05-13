@@ -2,6 +2,9 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        'arrow': "url('./assets/arrow.svg')",
+      },
       keyframes: {
         'fade-in-down': {
             '0%': {

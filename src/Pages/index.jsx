@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Cards from "../components/Cards";
-import Header from "../components/Header";
+import Header from "../components/Header/NavDesktop";
 import Planet from "../components/Planet";
 import { planets as planetsList } from "../services/data";
 

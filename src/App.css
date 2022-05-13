@@ -12,6 +12,14 @@
   background-image: url("./assets/background-stars.svg");
 }
 
+ul {
+  background-image: none;
+}
+
+li {
+  background-image: none;
+}
+
 img {
   display: block;
   width: 100%;

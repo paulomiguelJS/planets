@@ -1,6 +1,5 @@
 import React from "react";
 import { planets as PlanetInfo } from "../../../services/data";
-
 const MenuItems = ({ setPlanetId, active }) => {
   return (
     <ul
@@ -12,7 +11,7 @@ const MenuItems = ({ setPlanetId, active }) => {
     >
       {PlanetInfo.map((planet, index) => (
         <li
-          className="relative flex items-center before:block before:absolute before:w-5 before:h-5 before:rounded-full before:-left-5 before:bg-teal-500  pl-6 py-3  font-bold text-lg text-white bg-transparent cursor-pointer"
+          className="relative flex items-center before:block before:absolute before:w-5 before:h-5 before:rounded-full before:-left-5 before:bg-teal-500 after:block after:absolute after:w-14 after:h-14 after:bg-[url('./assets/arrow.svg')] after:bg-no-repeat after:bg-center after:right-0 pl-6 py-3 font-bold text-lg text-white bg-transparent cursor-pointer " 
           key={index}
           onClick={() => setPlanetId(planet.id)}
         >

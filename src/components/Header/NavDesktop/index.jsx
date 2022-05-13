@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { planets as PlanetInfo } from "../../services/data";
-import Hamburguer from "./Hamburguer";
-import MenuItems from "./NavMobile";
+import { planets as PlanetInfo } from "../../../services/data";
+import Hamburguer from "../Hamburguer";
+import MenuItems from "../NavMobile";
 
 const Header = ({ setPlanetId }) => {
   const [active, setActive] = useState(false);
@@ -22,13 +22,12 @@ const Header = ({ setPlanetId }) => {
           <div className="absolute right-6 top-4">
             <Hamburguer onClick={showMenu} />
           </div>
-          <ul className="lg:flex  text-[#c1c1c8] font-body font-bold tracking-widest hidden md:hidden gap-8 cursor-pointer">
+          <ul className="lg:flex  text-[#c1c1c8] font-body font-bold tracking-widest hidden md:hidden">
             {PlanetInfo.map((planet, index) => (
               <li
-                className="p-3 hover:text-white"
+                className="mx-2 p-1 cursor-pointer hover:text-white"
                 key={index}
                 onClick={() => setPlanetId(planet.id)}
-                
               >
                 {planet.name}
               </li>
