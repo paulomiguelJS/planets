@@ -5,7 +5,7 @@ const Hamburguer = ( {onClick}) => {
     <button 
       aria-label="humburger"
       id="hamburger"
-      class="relative w-10 h-10 -mr-2 lg:hidden"
+      class="relative w-10 h-10 -mr-2 lg:hidden bg-transparent"
       onClick={onClick}
     >
       <div
