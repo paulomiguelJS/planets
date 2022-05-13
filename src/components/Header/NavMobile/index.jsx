@@ -1,47 +1,22 @@
-import React from 'react'
+import React from "react";
+import { planets as PlanetInfo } from "../../../services/data";
 
-const NavMobile = () => {
+
+const MenuItems = ({ setPlanetId, showMenu, active}) => {
   return (
-    <section className="MOBILE-MENU flex lg:hidden">
-          <div
-            className="HAMBURGER-ICON space-y-2"
-          >
-            <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-            <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-            <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-          </div>
+    <ul className={active ? 'flex flex-col absolute left-0 mt-14 gap-10 bg-transparent bg-[#070724]   w-full h-screen   p-8 md:hidden' : 'hidden'}>
+    {PlanetInfo.map((planet, index) => (
+      <li
+        className="relative before:block before:absolute before:w-5 before:h-5 before:rounded-full before:bg-teal-500 before:left-[-22] p-2 border  font-bold text-lg hover:text-white bg-transparent"
+        key={index}
+        onClick={() => setPlanetId(planet.id)}
+        style={{ cursor: "pointer" }}
+      >
+        {planet.name}
+      </li>
+    ))}
+  </ul>
+  );
+};
 
-          <div>
-            <div
-              className="absolute top-0 right-0 px-8 py-8"
-            >
-              <svg
-                className="h-8 w-8 text-gray-600"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <line x1="18" y1="6" x2="6" y2="18" />
-                <line x1="6" y1="6" x2="18" y2="18" />
-              </svg>
-            </div>
-            <ul className="NAVIGATION-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
-              <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/about">About</a>
-              </li>
-              <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/portfolio">Portfolio</a>
-              </li>
-              <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/contact">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </section>
-  )
-}
-
-export default NavMobile
+export default MenuItems;
