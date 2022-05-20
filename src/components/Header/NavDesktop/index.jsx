@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { planets as PlanetInfo } from "../../../services/data";
 import Hamburguer from "../Hamburguer";
-import MenuItems from "../NavMobile";
+import NavMobile from "../NavMobile";
 
 const Header = ({ setPlanetId }) => {
   const [active, setActive] = useState(false);
@@ -33,7 +33,7 @@ const Header = ({ setPlanetId }) => {
               </li>
             ))}
           </ul>
-          <MenuItems showMenu={showMenu} active={active} />
+          <NavMobile showMenu={showMenu} active={active} setPlanetId={setPlanetId} setActive={setActive} />
         </nav>
       </header>
       <div className=" border-b border-[#393950]"></div>
