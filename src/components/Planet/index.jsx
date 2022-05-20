@@ -15,7 +15,7 @@ const Planet = ({ planetData }) => {
   return (
     <>
       <nav className="lg:hidden w-full">
-        <ul className=" flex flex-row text-white  font-body font-bold justify-around mt-2">
+        <ul className=" flex flex-row text-white text-sm font-body font-bold justify-around mt-2">
           <li
             onClick={() => {
               setPlanetText(planetData.overview);
