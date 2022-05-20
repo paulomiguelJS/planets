@@ -22,10 +22,10 @@ const Header = ({ setPlanetId }) => {
           <div className="absolute right-6 top-4">
             <Hamburguer onClick={showMenu} />
           </div>
-          <ul className="lg:flex  text-[#c1c1c8] font-body font-bold tracking-widest hidden md:hidden">
+          <ul className="lg:flex  text-[#c1c1c8] font-body font-bold tracking-widest hidden md:hidden ">
             {PlanetInfo.map((planet, index) => (
               <li
-                className="mx-2 p-1 cursor-pointer hover:text-white"
+                className="mx-4 p-1 cursor-pointer hover:text-white"
                 key={index}
                 onClick={() => setPlanetId(planet.id)}
               >

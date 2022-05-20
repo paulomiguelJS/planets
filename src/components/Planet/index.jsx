@@ -14,7 +14,7 @@ const Planet = ({ planetData }) => {
   return (
     <main className="flex flex-col items-center justify-around lg:flex-row p-2 mt-12 container mx-auto text-white">
         <img
-        className="basis-1/3 transform transition duration-1000 lg:hover:scale-110 animate-[fade-in-down_2s_ease-out] z-0"
+        className="basis-1/3 w-96 transform transition duration-1000 lg:hover:scale-110 animate-[fade-in-down_2s_ease-out] z-0"
         src={planetImage}
         alt={"Imagem"}
       />
