@@ -4,10 +4,11 @@
 
   box-sizing: border-box;
 
-  background-color: grey;
-
   list-style: none;
   text-decoration: none;
+}
+
+body {
   background: #070724;
   background-image: url("./assets/background-stars.svg");
 }

@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Button from "../Button";
-
+import Arrow from "../../assets/icon-source.svg"
 
 const Planet = ({ planetData }) => {
   const [planetText, setPlanetText] = useState();
   const [planetImage, setPlanetImage] = useState();
-
 
   useEffect(() => {
     setPlanetText(planetData.overview);
@@ -34,7 +33,7 @@ const Planet = ({ planetData }) => {
           >
             INTERNAL STRUCTURE
           </li>
-          <li        
+          <li
             onClick={() => {
               setPlanetText(planetData.internal);
               setPlanetImage(planetData.planetsurf);
@@ -59,9 +58,10 @@ const Planet = ({ planetData }) => {
           <p className="font-body text-base mb-3 animate-[fade-in-down_0.8s_ease-out]">
             {planetText}
           </p>
-          <div className="mt-3 animate-[fade-in-down_0.9s_ease-out]">
+          <div className="flex items-center mt-3 animate-[fade-in-down_0.9s_ease-out]">
             <span>Source:</span>
-            <a href={planetData.source}> Wikipedia </a>
+            
+            <a className="ml-2 flex items-center" target="_blank" href={planetData.source}>Wikipedia<img className="h-3 w-3 ml-1" src={Arrow} alt="Source" /> </a>
           </div>
           <div className="hidden lg:flex lg:flex-col ">
             <Button
