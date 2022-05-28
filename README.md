@@ -1,5 +1,5 @@
 <div align='center'>
-<img src='./readme/banner.png'>
+<img src='./README/banner.png'>
 
 <div>
     <img src="https://img.shields.io/github/repo-size/paulomigueljs/planets">
