@@ -31,7 +31,7 @@
 <br>
 
 <h2>ℹ️ Click here to visit:</h2>
-<a href="[https://my-link-one.vercel.app/](https://planets-henna.vercel.app/)" target="_blank">My Link</a>
+<a href="[https://my-link-one.vercel.app/](https://planets-henna.vercel.app/)" target="_blank">The Planets</a>
 
 <br>
 <br>
