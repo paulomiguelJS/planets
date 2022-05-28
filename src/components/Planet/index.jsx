@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Button from "../Button";
-import Arrow from "../../assets/icon-source.svg"
+import Arrow from "../../assets/icon-source.svg";
 
 const Planet = ({ planetData }) => {
   const [planetText, setPlanetText] = useState();
@@ -60,8 +60,15 @@ const Planet = ({ planetData }) => {
           </p>
           <div className="flex items-center mt-3 animate-[fade-in-down_0.9s_ease-out]">
             <span>Source:</span>
-            
-            <a className="ml-2 flex items-center border-b border-transparent hover:border-solid hover:border-b hover:border-white" target="_blank" href={planetData.source}>Wikipedia<img className="h-3 w-3 ml-1" src={Arrow} alt="Source" /> </a>
+
+            <a
+              className="ml-2 flex items-center border-b border-transparent hover:border-solid hover:border-b hover:border-white"
+              target="_blank"
+              href={planetData.source}
+            >
+              Wikipedia
+              <img className="h-3 w-3 ml-1" src={Arrow} alt="Source" />{" "}
+            </a>
           </div>
           <div className="hidden lg:flex lg:flex-col ">
             <Button
